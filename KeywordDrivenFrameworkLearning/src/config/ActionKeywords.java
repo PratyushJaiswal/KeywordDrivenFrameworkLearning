@@ -23,11 +23,11 @@ public class ActionKeywords {
 		}
  
 	public static void input_Username(){
-		driver.findElement(By.id("log")).sendKeys("testuser_3"); 
+		driver.findElement(By.id("log")).sendKeys("softway_1"); 
 		}
  
 	public static void input_Password(){
-		driver.findElement(By.id("pwd")).sendKeys("Test@123");
+		driver.findElement(By.id("pwd")).sendKeys("Test@1234");
 		}
  
 	public static void click_Login(){
