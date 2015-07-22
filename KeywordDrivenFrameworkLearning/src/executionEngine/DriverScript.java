@@ -10,7 +10,7 @@ public class DriverScript {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-			String sPath = "C://Users//pratyush.jaiswal//git//KeywordDrivenFrameworkLearning//src//dataEngine//DataEngine.xlsx";
+			String sPath = System.getProperty("user.dir") + "//src//dataEngine//DataEngine.xlsx";
 			
 			ExcelUtility.setExcelFile(sPath, "TestSteps");
 			

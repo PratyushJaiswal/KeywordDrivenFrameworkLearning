@@ -27,7 +27,7 @@ public class ActionKeywords {
 		}
  
 	public static void input_Password(){
-		driver.findElement(By.id("pwd")).sendKeys("Test@1234");
+		driver.findElement(By.id("pwd")).sendKeys("test@123");
 		}
  
 	public static void click_Login(){
