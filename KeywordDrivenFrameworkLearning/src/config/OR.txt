@@ -5,4 +5,4 @@ btn_LogOut=.//*[@id='account_logout']
 # Login Page Object
 txtbx_UserName=.//*[@id='log']
 txtbx_Password=.//*[@id='pwd']
-btn_LogIn=.//*[@id='login'] 
+btn_LogIn=.//*[@id='login']

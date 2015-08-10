@@ -13,16 +13,21 @@ public class Constants {
 	
 	public static final int Col_TestCaseID = 0;
 	public static final int Col_TestScenariousID = 1;
-	public static final int Col_ActionKeyword = 4;
-	public static final int Col_PageObject = 3;
+	public static final int Col_ActionKeyword = 5;
+	public static final int Col_PageObject = 4;
 	public static final int Col_RunMode =2;
-	
+	public static final int Col_Result = 3;
+	public static final int Col_TestStepResult = 7;
+	public static final int Col_DataSet = 6;
+	// status keyword 
+	public static final String Keyword_Fail = "Fail";
+	public static final String Keyword_Pass = "Pass";
 	//List of Data Engine Excel Sheet 
 	public static final String Sheet_TestSteps ="TestSteps";
 	public static final String Sheet_TestCases ="Test Cases";
 	//List of Test Data 
 	
-	public static final String UserName = "softway_1";
-	public static final String Password = "test@123";
+	//public static final String UserName = "softway_1";
+	//public static final String Password = "test@123";
 	
 }
